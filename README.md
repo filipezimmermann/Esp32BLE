@@ -68,8 +68,8 @@ Antes de carregar, ajuste apenas as credenciais de rede no início do código (`
 
 Para ver os resultados em tempo real:
 
-1.  Use um **Cliente MQTT** (como MQTT Explorer ou um *dashboard* web).
+1.  Use um **Cliente MQTT** (como MQTT.Cool Test Client ou um *dashboard* web).
 2.  Conecte ao broker: **`test.mosquitto.org`** (Porta 1883).
 3.  **Assine (Subscribe)** o tópico: **`esp32/localizadorBLE_FILIPE`**.
 
-Você receberá dados como MAC, nome, RSSI e a distância estimada (`distancia_m`).
+Você receberá dados como MAC, nome, RSSI e a distância aproximada.
